@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
-// import Image from "next/image";
-// import profilePic from "../public/dev-ed-wave.png";
+import Image from "next/image";
+
 
 export default function Home(): JSX.Element {
   return (
@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-gradient-to-tr from-purple-600 to-red-400 bg-orange-400 px-10">
+      <main className=" bg-gradient-to-tr from-purple-600 to-red-400 bg-orange-400 px-10 ">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-xl font-burtons">BuiltbyRutvij</h1>
@@ -24,12 +24,16 @@ export default function Home(): JSX.Element {
               <li><a className="bg-gradient-to-r from-yellow-600 to-red-600 bg-amber-500 border-solid border-4 border-black text-white px-4 py-2 rounded-md ml-6" href="#">Resume</a></li>
             </ul>
           </nav>
-          {/* <div>
+          <div className="grid place-content-center">
             <Image
-              src={profilePic}
-              alt="Proile Picture"
+              src="/rutu_patel.jpg"
+              alt="Picture of the author"
+              className="w-85 h-85 mt-10"
+              width={350}
+              height={350}
+              objectFit='cover'
             />
-          </div> */}
+          </div>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 font-medium text-white">Rutvij Patel</h2>
             <h3 className="text-2xl py-2 text-white">UI/UX Frontend Developer</h3>
