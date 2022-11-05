@@ -13,29 +13,14 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-gradient-to-tr from-purple-600 to-red-400 bg-orange-400 px-10 snap-y overflow-scroll">
-        <div className="container mx-auto justify-between items-center py-5 flex ">
+        {/* <div className="container mx-auto justify-between items-center py-5 flex ">
           <div className="flex flex-wrap">
-            <nav className='inline-block fixed left-percentage'>
-              <div className="absolute left-50 transform -translate-x-1/2 space-y-6 mt-40">
-                <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
-                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-5"> Home</span>
-                </a>
-                <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
-                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-5"> Home</span>
-                </a>
-                <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
-                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-5"> Home</span>
-                </a>
-                <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
-                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-5"> Home</span>
-                </a>
-              </div>
-            </nav>
+            
           </div>
-        </div>
+        </div> */}
         <section className="min-h-screen snap-start">
           <nav className="py-10 mb-10 flex justify-between">
-            <h1 className="text-xl font-burtons">BuiltbyRutvij</h1>
+            <h1 className="text-xl font-burtons mt-1">BuiltbyRutvij</h1>
             <ul className="flex items-center">
               <li>
                 <label className="switch">
@@ -51,6 +36,22 @@ export default function Home(): JSX.Element {
               </li>
             </ul>
           </nav>
+          <nav className='inline-block fixed left-percentage'>
+              <div className=" items-center absolute transform -translate-x-1/2 space-y-10 max-h-screen content-center mt-40">
+                <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
+                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Home</span>
+                </a>
+                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">AboutMe</span>
+                </a>
+                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Projects</span>
+                </a>
+                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                  <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Contact</span>
+                </a>
+              </div>
+            </nav>
           <div className="grid place-content-center">
             <Image
               src="/rutu_patel.jpg"

@@ -67,7 +67,7 @@ a {
   display: block;
   width: 72px;
   padding: 4px;
-  border-radius: 22px;
+  border-radius: 50px;
   background: grey;
   border: solid;
 }
@@ -76,7 +76,7 @@ a {
   display: block;
   width: 25px;
   height: 25px;
-  border-radius: 50%;
+  border-radius: 100%;
   background: #dce2e8;
   transition: 0.3s cubic-bezier(0.18, 0.69, 0.35, 1.15)
 }
