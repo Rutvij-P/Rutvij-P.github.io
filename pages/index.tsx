@@ -41,13 +41,13 @@ export default function Home(): JSX.Element {
                 <a href="#" className="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav">
                   <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Home</span>
                 </a>
-                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                <a href="#about" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
                   <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">AboutMe</span>
                 </a>
-                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                <a href="#projects" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
                   <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Projects</span>
                 </a>
-                <a href="#" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
+                <a href="#contact" className="nav-dot block w-7 h-7 rounded-full border-4 border-nav">
                   <span className="bg-black px-2 py-1 rounded-md ml-10 opacity-0 text-white">Contact</span>
                 </a>
               </div>
@@ -76,14 +76,14 @@ export default function Home(): JSX.Element {
             <AiFillMail />
           </div>
         </section>
-        <section className="min-h-screen snap-start">
+        <section id="about" className="min-h-screen snap-start">
           <h2 className="text-2xl py-2">About</h2>
           <h3 className="text-md py-2 text-white text-justify">Undergrad Computer Science student versed in reviewing plans,
             writing reports, researching solutions, and implementing company
             procedures. Willingness to learn, follow through instructions and
             work cooperatively within team environments.</h3>
         </section>
-        <section className="min-h-screen snap-start">
+        <section id="projects" className="min-h-screen snap-start">
           <h2 className="text-2xl py-2">Projects and Skills</h2>
           <h3 className="text-md py-2 text-white text-justify">
             Orion Clock: A basic Java GUI <br />
@@ -91,7 +91,7 @@ export default function Home(): JSX.Element {
             Profile Page: A responsive Profile page that serves as a medium for putting my portfolio out there in the world. [In P.] <br />
           </h3>
         </section>
-        <section className="min-h-screen snap-start">
+        <section id="contact" className="min-h-screen snap-start">
           <h2 className="text-2xl py-2">Contact Me</h2>
           <h3 className="text-md py-2 text-white text-justify">
            Contact Me Page Here
